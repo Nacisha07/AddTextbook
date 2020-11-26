@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset = "UTF-8">
+    
+	<title>Textbook System | Add Textbook</title>
+	
+	<style type = "text/css">
+        label {
+            display: inline-block;
+            width: 200px;
+            margin: 5px;
+            text-align: left;
+        }
+        input[type=text], select {
+            display: inline-block;
+            width: 200px;
+        }
+
+        button {
+            padding: 5px;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <button type="submit">Back</button>
+    
+	<header>
+        <h1 align="center">Add a Textbook</h1>
+    </header>
+
+    <form>
+        <div align="center">
+            <table>
+                <tr>
+                    <td><label>ISBN</label></td>
+                    <td><input type="search"/></td>
+                </tr>
+                <tr>
+                    <td><label>Title</label></td>
+                    <td><input type="text"/></td>
+                </tr>
+                <tr>
+                    <td><label>Edition</label></td>
+                    <td><input type="text"/></td>
+                </tr>
+                <tr>
+                    <td><label>Volume</label></td>
+                    <td><input type="text"/></td>
+                </tr>
+                <tr>
+                    <td><label>Condition</label></td>
+                    <td>
+                        <select>
+                            <option>Poor<option/>
+							<option>Near Fine<option/>
+							<option>Good<option/>
+							<option>Very Good<option/>
+							<option>Like New<option/>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Price</label></td>
+                    <td><input type="text"/></td>
+                </tr>
+                <tr>
+                    <td><label>Add Pictures</label></td>
+                    <td><input type="image"/></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><button type="submit">Post</button></td>
+                </tr>
+
+            </table>
+        </div>
+	</form>
+</body>
+</html>
